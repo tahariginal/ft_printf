@@ -13,6 +13,8 @@ int ft_printf(const char *format, ...)
     {
         if (*format == '%')
         {
+            if (*(format + 1) == '\0')
+                return (-1);
             format++;
             if (ft_strchr("cspdiuxX%", *format))
             {
