@@ -4,6 +4,6 @@ int main()
 {
     int a = 12;
 
-    printf("%d\n",printf("%%%%%%%",&a));
-    printf("%d\n",ft_printf("%%%%%%%",&a));
+    printf("%d\n",printf(" % "));
+    printf("%d\n",ft_printf(" % " ));
 }
