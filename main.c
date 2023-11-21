@@ -2,8 +2,6 @@
 #include <stdio.h>
 int main()
 {
-    int a;
-    a = 97;
-    ft_printf("hello %u\n",9999999999999999);
-    printf("hello %u\n",9999999999999999);
+    printf("--->:%d \n",printf("%c",97));
+    printf("--->:%d \n",ft_printf("%c",97));
 }
