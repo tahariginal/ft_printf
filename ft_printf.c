@@ -1,5 +1,13 @@
 #include "ft_printft.h"
+static  int for_norminette(const char *s)
+{
+    int i;
 
+    i = 0;
+    i += ft_putchar('%');
+    i += ft_putchar(*s);
+    return (i);
+}
 int ft_printf(const char *format, ...)
 {
     int count;
@@ -17,9 +25,9 @@ int ft_printf(const char *format, ...)
                 return (-1);
             format++;
             if (ft_strchr("cspdiuxX%", *format))
-            {
                 count += ft_print_type(*format, arg_p);
-            }
+            else
+                count += for_norminette(format);
         }
         else
             count += ft_putchar(*format);
