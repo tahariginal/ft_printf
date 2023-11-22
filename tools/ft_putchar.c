@@ -6,13 +6,13 @@
 /*   By: tkoulal <tkoulal@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/22 09:32:16 by tkoulal           #+#    #+#             */
-/*   Updated: 2023/11/22 09:32:18 by tkoulal          ###   ########.fr       */
+/*   Updated: 2023/11/22 12:17:46 by tkoulal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "tools.h"
 
-int ft_putchar(char c)
+int	ft_putchar(char c)
 {
-    return(write(1, &c, 1));
+	return (write(1, &c, 1));
 }

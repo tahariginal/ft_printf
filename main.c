@@ -1,9 +1,8 @@
-#include "ft_printft.h"
+#include "ft_printf.h"
 #include <stdio.h>
 int main()
 {
     int a = 12;
 
-    printf("%d\n",printf(" % "));
-    printf("%d\n",ft_printf(" % " ));
+    printf("\nthe lenth of%d\n",ft_putnbr(-214748648));
 }

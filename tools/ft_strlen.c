@@ -6,7 +6,7 @@
 /*   By: tkoulal <tkoulal@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/22 09:33:02 by tkoulal           #+#    #+#             */
-/*   Updated: 2023/11/22 09:33:29 by tkoulal          ###   ########.fr       */
+/*   Updated: 2023/11/22 12:18:08 by tkoulal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 size_t	ft_strlen(const char *s)
 {
-	size_t c;
+	size_t	c;
 
 	c = 0;
 	while (s[c] != '\0')
