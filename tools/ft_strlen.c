@@ -1,10 +1,23 @@
-#include "tools.h"
-size_t ft_strlen(const char *s)
-{
-     size_t c;
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: tkoulal <tkoulal@student.1337.ma>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/11/22 09:33:02 by tkoulal           #+#    #+#             */
+/*   Updated: 2023/11/22 09:33:29 by tkoulal          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-    c = 0;
-    while (s[c] != '\0')
-        c++;
-    return (c);
+#include "tools.h"
+
+size_t	ft_strlen(const char *s)
+{
+	size_t c;
+
+	c = 0;
+	while (s[c] != '\0')
+		c++;
+	return (c);
 }
