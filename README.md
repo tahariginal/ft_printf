@@ -1,4 +1,4 @@
-# ft_printf
+#                                                                                         ft_printf
 
 A lightweight reimplementation of the standard C `printf` function supporting a subset of the most common format specifiers. The project builds a static library `libftprintf.a` that you can link against in other C projects.
 
